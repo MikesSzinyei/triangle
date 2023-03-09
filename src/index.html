@@ -1,25 +1,32 @@
+
+
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
+        <h1>Háromszög Területszámítás</h1>
+        <h2>Adhoc feladat</h2>
 
         <div class="triangleForm">
             <div class="mt-3">
-                <label for="base" class="for-label">Alap</label>
+                <label for="base" class="for-label">Alap (cm)</label>
                 <input type="text" id="base" class="form-control">
             </div>
 
             <div class="mt-3">
-                <label for="height" class="for-label">Magasság</label>
+                <label for="height" class="for-label">Magasság (cm)</label>
                 <input type="text" id="height" class="form-control">
             </div>
-            <button id="calcButton" class="btn btn-primary">Számít</button>
+            <button id="calcButton" class="btn btn-primary mt-3">Számít</button>
 
             <div class="mt-3">
                 <label for="area" class="for-label">Terület</label>
@@ -28,7 +35,11 @@
         </div>
 
     </div>
+
+    <div class="about">
+        Szinyei Mikes, 2023-03-09, Szoft I-2 N
+    </div>
     <script src="app.js"></script>
-    
+
 </body>
 </html>
