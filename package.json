@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fart": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server",
-    "test": "jasmine-browser-runner runSpecs"
+    "test": "jasmine-browser-runner",
+    "start": "lite-server"
+    
   },
   "keywords": [],
   "author": "",
